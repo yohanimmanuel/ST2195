@@ -1,0 +1,1 @@
+nile <- scan("nile.txt")
