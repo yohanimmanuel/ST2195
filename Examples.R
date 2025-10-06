@@ -1,25 +1,4 @@
-nile <- scan("nile.txt")
-nile
-typeof(nile)
-hist(nile)
-nile_char <- scan("nile.txt", what = character())
-nile_char
-typeof(nile_char)
-scan("sunset-salvo-sem", what=character(), sep = ";")
-scan("running_dat.tsv", what=list("", 1.0, 1.0, 1.0, 1.0, 1.0, 1.0), sep="\t", skip = 1)
-cat(nile, file = "nile1.txt", sep = ",")
-#help(write)
-write(nile, file="nile2.txt", sep = ',')
-fileConn<-file("nile3.txt")
-writeLines(as.character(nile), con=fileConn) 
-close(fileConn)
-running <- read.table("running_dat.tsv", header = TRUE, sep = "\t")
-running
-str(running)
-read.table("running_dat.csv", header = TRUE, sep = ",")
-read.csv("running_dat.csv")
-read.csv2("sunset-salvo-sem", header = FALSE)
-read.csv2("sunset-salvo-sem")
-read.csv2("running_dat.csv", header=FALSE) #assumes semi-colon as separator
-write.table(running, file = "running.dat", sep = "&&", dec = "*")
-readLines("running.dat")
+
+z <- as.integer(5)
+z
+class(z)
