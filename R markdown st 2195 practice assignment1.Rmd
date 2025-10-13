@@ -1,0 +1,43 @@
+---
+title: "stassignment1 2195 programming"
+author: "Yohan"
+date: "2025-10-13"
+output: html_document
+---
+
+## Method 1: Using For Loop
+
+```{r}
+num <- 1:10
+for (x in num) {
+  print(x)
+}
+```
+
+## Method 2: Using While loop
+
+```{r}
+x <- 1
+while (x <= 10) {
+  print(x)
+  x <- x + 1
+}
+```
+
+## Method 3: Using cat
+
+```{r}
+num <- 1:10
+cat(num, sep = "\n")
+```
+
+## Method 4: Using print with vector
+
+```{r}
+num <- 1:10
+print(num)
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
