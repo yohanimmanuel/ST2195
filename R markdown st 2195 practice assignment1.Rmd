@@ -27,7 +27,7 @@ while (x <= 10) {
 ## Method 3: Using cat
 
 ```{r}
-num <- 1:10
+num <- 1:11
 cat(num, sep = "\n")
 ```
 
